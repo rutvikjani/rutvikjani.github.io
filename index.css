@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(220, 15%, 90%);
+}
+
+.main{
+    margin: 10rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .card{
+    max-width: 800px;
+    width: 200px;
+    padding: 0.5rem;
+    background: #fff;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.main .card .barCode img{
+    width: 175px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.main .card .text .boldFonts{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+}
+
+.main .card .text .smallFont{
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.main .card .text p{
+    line-height: 1;
+    padding: 0.5rem;
+}
+
