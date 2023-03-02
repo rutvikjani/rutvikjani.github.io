@@ -13,7 +13,7 @@ body{
 }
 
 .main{
-    margin: 10rem;
+    margin: 7rem;
     display: flex;
     text-align: center;
     align-items: center;
@@ -24,16 +24,16 @@ body{
 .main .card{
     max-width: 800px;
     width: 200px;
-    padding: 0.5rem;
+    padding: 1rem;
     background: #fff;
     border: 1px solid white;
     border-radius: 10px;
 }
 
 .main .card .barCode img{
-    width: 175px;
-    height: 170px;
-    border-radius: 5px;
+    width: 160px;
+    height: 180px;
+    border-radius: 7px;
 }
 
 .main .card .text .boldFonts{
